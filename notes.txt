@@ -1,0 +1,27 @@
+Maven Help Plugin:
+-----------------------------
+$ mvn help:help -Ddetail=true
+$ mvn help:help -Ddetail=true -Dgoal=describe
+$ mvn help:describe -Dplugin=<PLUGIN_NAME>
+	Example: $ mvn help:describe -Dplugin=org.springframework.boot:spring-boot-maven-plugin
+		(Describe Spring Boot Maven Plugin)
+
+Spring Boot Maven Plugin:
+-----------------------------
+$ mvn spring-boot:help
+$ mvn spring-boot:run
+$ mvn spring-boot:start
+$ mvn spring-boot:stop
+$ mvn spring-boot:repackage
+
+Maven Clean Plugin:
+-----------------------------
+$ mvn clean:help -Ddetail=true
+
+Maven Install Plugin:
+-----------------------------
+$ mvn install:help -Ddetail=true
+
+View Maven Dependencies tree:
+-----------------------------
+$ mvn dependency:tree
